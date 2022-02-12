@@ -11,7 +11,7 @@ Enhance data scientists practical skills from doing and learning different datas
 
 # Analysed Datasets
 >:thumbsup:
->Everyone deserves a chance to learn and make mistakes from doing
+>Learn and make mistakes from doing
 1. (2022.02.12) [Credit Card Fraud From Kaggle](https://github.com/WeiTaKuan/data_science_project/blob/main/CreditCardFraud/Exploratory_Data_Analysis.ipynb)
 2. (2022.02.12) [Wine Quality From Kaggle](https://github.com/WeiTaKuan/data_science_project/blob/main/Wine%20Quality/Exploratory_Data_Analysis.ipynb)
 
