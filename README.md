@@ -1,4 +1,8 @@
 # Data Science Project
+<p>
+	<img src="https://img.shields.io/badge/-python-61DAFB?logo=python">
+	<img src="https://img.shields.io/github/license/WeiTaKuan/data_science_project">
+</p>
 - Author: Max Kuan
 - Language: Python 3.9.7
 
