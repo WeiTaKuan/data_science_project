@@ -3,7 +3,7 @@
 - Language: Python 3.9.7
 
 # Description
-Enhance data scientists practical skills from doing and learning different datasets. The goal is to find a full-time job in the data domain as an entry data analysis professional who transitions from life science to data science. 
+Enhance data scientists practical skills from doing and learning different datasets. The goal is to find a full-time job in the data domain as an entry data analysis professional who transit career from life science to data science. 
 
 # Analysed Datasets
 >:thumbsup:
