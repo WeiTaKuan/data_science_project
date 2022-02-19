@@ -7,15 +7,35 @@ import seaborn as sns
 import statsmodels.api as stat
 
 
-def columnType(df):
-    numeric = list()
-    category = list()
+def dataSummarize(data):
     
-    for i in df.columns:
-        # binary value in the column
-        if len(df[i].unique()) == 2:
-            df[i] = df[i].astype("category")
-            category.append(i)
-        else:
-            numeric.append(i)
-    return (df, category, numeric)
+    # Seperate Numerical and Categorical value
+    numerical = data.select_dtypes(include=[np.number]).columns.tolist()
+    categorical = data.select_dtypes(exclude=[np.number]).columns.tolist()
+    
+    # Check Anomolies, duplicate and missing values
+    duplicate_num = data.duplicated().sum()
+    duplicate_index = data[data.duplicated(keep=False)].index.tolist()
+    
+    missing = data.isna().sum()
+    
+    print(f"""
+--------- Summarize --------------
+Numerical features: {numerical}
+Categorical features: {categorical}
+
+--------- Duplicate --------------
+How many duplicate records: {duplicate_num}
+Where is the duplicate record occur: {duplicate_index}
+
+--------- Missing ----------------
+{missing}
+
+""")
+    return (numerical, categorical, duplicate_index)
+
+
+def missingValue(data):
+    plt.figure(figsize=(10, 6))
+    sns.displot(data=data.isna().melt(value_name='missing'), y='variable', hue='missing')
+    plt.show()
