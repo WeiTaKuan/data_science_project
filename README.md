@@ -15,6 +15,7 @@ Enhance data scientists practical skills from doing and learning different datas
 >Learn and make mistakes from doing
 1. (2022.02.12) [Credit Card Fraud From Kaggle](https://github.com/WeiTaKuan/data_science_project/blob/main/CreditCardFraud/Exploratory_Data_Analysis.ipynb)
 2. (2022.02.12) [Wine Quality From Kaggle](https://github.com/WeiTaKuan/data_science_project/blob/main/Wine%20Quality/Exploratory_Data_Analysis.ipynb)
+3. (2022.02.16) [Heart Disease From Kaggle](https://github.com/WeiTaKuan/data_science_project/blob/main/Heart%20Disease%20UCI/Heart_Disease_Kaggle.ipynb)
 
 
 
