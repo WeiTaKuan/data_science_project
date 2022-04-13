@@ -7,6 +7,7 @@
 - Author: Max Kuan
 - Degree: Master of Data Science/Biomedical Science
 - Language: Python 3.9.7
+- Testing 
 
 # Description
 Hello, welcome to my data science practical project marathon repository. As a rookie in the data science domain, I struggle to find a way to fit into this domain. However, the best way to gain knowledge and enhance skills is to learn and make mistakes. Analyzing different datasets, finding patterns and using machine learning to solve real problems is the best way to reach the goal. So, this place will upload my analysis for different datasets and track my performance or improvement from dataset to dataset. As the ancient word said, "Practice Makes Perfect."
